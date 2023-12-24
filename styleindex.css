@@ -1,0 +1,349 @@
+body{
+    padding: 0%;
+    margin:0%;
+    scroll-behavior: smooth;
+}
+.bannertop{
+    display: flex;
+    background-color: rgba(3, 1, 1, 0.877);
+    justify-content: center;
+}
+.bannertop img{
+
+    width:18vw;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    border-style: none;
+    border-width: 0px;
+    margin-bottom: 1%;
+}
+.index{
+    display: flex;
+    flex-direction: column;
+}
+.subbanner{
+    display: flex;
+    flex-direction: row;
+    padding: 4%;
+    padding-left: 8%;
+}
+.subbanner img{
+    width:15vw;
+    height: 27vh; 
+      box-sizing: border-box;
+    border-radius: 70%;
+    border-style: none;
+    overflow: hidden;
+    box-shadow: 3px 3px  28px rgba(2, 2, 2, 0.733);
+    object-fit: cover;
+}
+.subbanner img:hover{
+    width:16vw;
+    height: 28vh; 
+      box-sizing: border-box;
+    border-radius: 70%;
+    border-style: none;
+    overflow: hidden;
+    box-shadow: 3px 3px  48px rgba(2, 2, 2, 0.842);
+    object-fit: cover;
+}
+.intro{
+    display: flex;
+    
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+
+}
+.intro span{
+    padding-right: 7px;
+    font-size: 37px;
+}
+.intro .icon{
+    padding-top: 21px;
+}
+.r{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+}
+.subintro{
+    padding-top: 15px;
+}
+.links{
+    padding-top: 20px;
+    font-size: 16px;
+    
+}
+.links a{
+    color: blue;
+    text-decoration: none;
+}
+.links a:visited{
+    color: blue;
+    text-decoration: none;
+}
+.links a:hover{
+    color: blue;
+    text-decoration: none;
+}
+.minenavbar{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+   
+    padding-bottom: 22px;
+}
+.minenavbar a{
+    color: grey;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+    font-weight: 560;
+}
+.minenavbar a:visited{
+    color: grey;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+    font-weight: 560;
+}
+.minenavbar a:hover{
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 17.5px;
+    font-weight: 560;
+}
+.minenavbar span{
+    padding: 0px 60px  !important;
+    box-sizing: border-box !important;
+    border-top-style: none !important;
+    border-left-style: none !important;
+    border-right-style: none !important;
+    border-bottom-style:solid !important;
+    border-bottom-width: 1px !important;
+    border-bottom-color: rgb(185, 185, 185) !important;
+    padding-bottom: 20px !important;
+    padding-right: 0px;
+}
+.minenavbar .home{
+    box-sizing: border-box !important;
+    border-top-style: none !important;
+    border-left-style: none !important;
+    border-right-style: none  !important;
+    border-bottom-style:solid  !important;
+    border-bottom-width: 3px !important;
+    border-bottom-color: rgb(73, 72, 72) !important;
+    margin: 0px;
+}
+.main {
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.main span a{
+    color: black;
+    text-decoration: none;
+    padding: 13px;
+
+}
+.main span{
+    font-size: 20px;
+}
+.main span a:hover{
+    color: black;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-style: none;
+    border-radius: 20px;
+    background-color: rgba(216, 215, 215, 0.671);
+    padding: 13px;
+   
+}
+.main span a:visited{
+    color: black;
+    text-decoration: none;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+
+}
+.underproject{
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+}
+/*.card{
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 12px;
+    margin:30px;
+}
+
+.card img{
+    width: 150px;
+    object-fit: cover;
+    
+}
+*/
+.card a{
+    color: black;
+    text-decoration: none;
+
+}
+.card a:hover{
+    color: black;
+    text-decoration: none;
+    box-shadow: 3px 3px 10px black;
+    
+}
+.card a:visited{
+    color: black;
+    text-decoration: none;
+}
+.card {
+    border-style: none;
+}
+#amazon{
+    height: 185px;
+}
+.aboutus {
+    /*margin-left: 106px;
+    padding: 10px;
+    */
+    display: flex;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 0px;
+    background-color: black;
+    color: rgb(253, 252, 252);
+    text-align: justify;
+    width: 100%;
+    height: 50%;
+    overflow-wrap: break-word;
+}
+.aboutus h4{
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 350%;
+}
+.content2{
+    width: 90%;
+    height: 45%;
+    overflow-wrap: break-word;
+}
+.img2 img{
+    width:70%;
+    height: 60%;
+    justify-content: center;
+    margin-left: 12%;
+    margin-top: 10%;
+
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#ffff;
+    
+    box-shadow: 3px 3px 23px #ffff;
+
+}
+.img2 img:hover{
+    box-shadow: 3px 3px 37px #ffff;
+}
+.content2 p b{
+    color: rgba(2, 201, 2, 0.993);
+}
+.content2 h4{
+    color: rgba(2, 201, 2, 0.993);
+    
+}
+.skills h4{
+    font-family: 'Rubik',sans-serif;
+    font-size: 4.5vw;
+    -webkit-text-stroke-width:0.3px ;
+    -webkit-text-stroke-color: rgb(245, 245, 250);
+    color: rgba(249, 250, 249, 0.993);
+    
+}
+.skills{
+    background-color: black;
+}
+.skillbox {
+    display: flex;
+    flex-wrap: wrap;
+   padding-bottom: 70px;
+
+
+}
+.skillboxx{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-style: none;
+    border-color: #ffff;
+    border-radius: 12px;
+    border-width: 2px;
+    width: 19vw;
+    height: 27vh;
+    object-fit: cover;
+    box-shadow: 3px 3px  5px white ,-3px -3px  5px white ;
+    margin: 30px;
+   }
+ /*  .skillboxx :hover{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-style: none;
+    border-color: #ffff;
+    border-radius: 12px;
+    border-width: 2px;
+    width: 19vw;
+    height: 27vh;
+    object-fit: cover;
+    box-shadow: 3px 3px  12px white ,-3px -3px  12px white ;
+    margin: 30px;
+
+   }
+   */
+   .skillboxx span{
+    font-family: 'Rubik',sans-serif;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+   }
+   .skillboxx img{
+    width:10vw;
+   padding-left: 10px;
+   margin-left:20%;
+   }
+   .skillbox_line1{
+    display: flex;
+    flex-direction: row;
+    padding:12px;
+
+   }
+   .skillbox_line2{
+    display: flex;
+    flex-direction: row;
+    padding:12px;
+
+   }
+   .skillbox_line3{
+    display: flex;
+    flex-direction: row;
+    padding:12px;
+    justify-content: center;
+    margin-left: 90px;
+
+   }
